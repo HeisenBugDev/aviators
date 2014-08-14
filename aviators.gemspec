@@ -1,13 +1,14 @@
+# coding: utf-8
+lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'aviators/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "aviators"
-  spec.version       = aviators::VERSION
+  spec.version       = `git describe --tags --abbrev=0`
   spec.authors       = ["hunterboerner"]
   spec.email         = ["hunterboerner@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Write a short summary. Required.}
+  spec.description   = %q{Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
