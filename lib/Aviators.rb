@@ -1,5 +1,7 @@
 require "Aviators/version"
 
 module Aviators
-  # Your code goes here...
+  class Engine << Rails::Engine
+
+  end
 end
