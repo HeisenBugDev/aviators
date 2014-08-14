@@ -1,7 +1,7 @@
-require "Aviators/version"
+require "aviators/version"
 
-module Aviators
+module aviators
   class Engine << Rails::Engine
-
+    # This magically works
   end
 end

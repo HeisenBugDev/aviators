@@ -1,11 +1,9 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'Aviators/version'
+require 'aviators/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Aviators"
-  spec.version       = Aviators::VERSION
+  spec.name          = "aviators"
+  spec.version       = aviators::VERSION
   spec.authors       = ["hunterboerner"]
   spec.email         = ["hunterboerner@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
