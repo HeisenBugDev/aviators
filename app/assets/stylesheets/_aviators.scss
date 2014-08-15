@@ -8,30 +8,43 @@
 //                 A UI Toolkit that instantly makes you look cool                   //
 ///////////////////////////////////////////////////////////////////////////////////////
 //                                                                                   //
-//                      .IND88DN..                                                   //
-//      . .....    ..?=:..     .IN~                                                  //
-//     ...??,....7~,..            =M?                                                //
-//    ~7$8NNMMMNIM:?O..            .?M?.                                             //
-//   ,77Z88DNNNNNNNN~,,.,88?..       .DM:.                                   O$~     //
-// .7=Z$I7$ZOO8NNNNNNN8,, .......,=+$8..Z,. .                              I8.7      //
-// .,8$I??I77$ZZOO888NNN:.... . .N~NNNNNNND:O?.8..                      .O+..$=      //
-//   Z==++???III777777$$Z:..:=.=8DNNNNNNNNNNNNNNNNZDI.                .$=. .=Z       //
-//   :==++++++??????????+:   .O777777$ONNMNNNNNNMNNNNN7,..          .8=.   .8:       //
-//   .======++++++++++++,...  ,?++++++?????I$DNNNNNNNNNNO+        .D~.     ..        //
-//   .N=================:~=   .?++=+++++++++++++++????IIII,    ..D~.                 //
-//    .~===============,:.    .8===================+++++++,.. .?~.                   //
-//    .I===============..      .==+========================,~=:                      //
-//      Z=============..        ,=========~~~~~~~~=========                          //
-//      .I==+=======:.          .:======~~~~~~~~~~~~=======.                         //
-//        .O+++===+,.             ,=======~~~~~~~~~~=~====,                          //
-//         . ,~:,..                .I==========~=~========.                          //
-//                                  .,===================,                           //
-//                                    .,================,.                           //
-//                                      ..:+==========8.                             //
-//                                          ..:~:=:...                               //
+//                                                  `.-::::--..                      //
+//                                               .-:-.`  ``.-+oo+:-`   `.....`       //
+//                                            `-::.`           `-+yyssyhhhhhhys/`    //
+// -:-`                                     .::-.   ```..-::/osyhhdddmmmmdddddhyo`   //
+// .::/+:`                        ```..-://+oo++++oo//::-...oyddmmmmmddddddddddhyo/  //
+//  ::--/o+-`                `.:+osyyhhhddddddddddhhs/..::/oydddddddddddddddddddys/  //
+//  `::. `-oo/.`          `:oshddddmmmmmmmmmmmmddddddyy/:-:yhddddddddddddddddddhy-   //
+//   `-.    .:oo/.`     `/shddmmmmmmdddddddddddddddddhy` -:yhddddddddddddddddddys    //
+//            `.+so+-   +yhddddddddddddddddddddddddddyo  :syyhddddddddddddddddhy:    //
+//               `-+s+:/yhddddddddddddddddddddddddddhs.   `+yyhddddddddddddddhy+     //
+//                  `::oyddddddddddddddddddddddddddhy-      .+yhddddddddddddhy+`     //
+//                     :yhddddddddddddddddddddddddhy:         /yhddddddddddhs:       //
+//                     .yhddddddddddddddddddddddhys-           ./shhhdddhhy+.        //
+//                      /yhdddddddddddddddddddhhs/`              `-/+ooo+:`          //
+//                       /yhdddddddddddddddhhyo:`                                    //
+//                        .+yhhddddddddhhhyo:.                                       //
+//                          `-+osyyyyso/:.                                           //
+//                                                                                   //
 ///////////////////////////////////////////////////////////////////////////////////////
 
 //
 // © 2014 HeisenBugDev
 // All rights reserved
 //
+
+body {
+  margin: 0;
+}
+
+* {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 400;
+}
+
+.loading {
+  visibility: hidden;
+}
