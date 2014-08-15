@@ -1,4 +1,8 @@
+# This is a WORK IN PROGRESS!
+
 # Aviators
+
+![Aviators logo](Aviators-logo.png)
 
 TODO: Write a gem description
 
